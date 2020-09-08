@@ -1,8 +1,8 @@
-# Akan Name Generator
-#### Akan web, August 21th 2020
+# pizzaHub
+#### PizzaHub web, september 5th 2020
 #### By **Antony K Mathenge**
 ## Description
-THis is a website used for dstermining the Akan name based on the day he/she was born.The project has been built using HTML js and styled using CSS and bootstrap.   
+THis is a website used for pizza delivery and ordering.The project has been built using HTML js and styled using CSS and bootstrap.   
 ## Setup/Installation Requirements
 * 1.Have a functional github account
 * 2.On my github profile ,select the project name
