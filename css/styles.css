@@ -239,3 +239,61 @@ a {
     font-size: 18px;
     font-weight: normal;
 }
+
+figure img {
+    height: 260px;
+    width: 260px;
+}
+
+.karibu-txt {
+    margin-top: 160px;
+}
+
+.txt {
+    font-family: system-ui, cursive;
+    color: black;
+    font-size: 23px;
+}
+
+.txt-big {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.karibu-img {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 130px;
+    height: 400px;
+    width: 400px;
+}
+
+.welcome {
+    padding-top: 30px;
+}
+
+.rads {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fab {
+    margin: 60px 15px 0 15px;
+}
+
+
+/* Collapse nav start*/
+
+.top-nav-collapse {
+    background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+
+/* Collapse nav end*/
+
+
+/** Media Queries start **/
