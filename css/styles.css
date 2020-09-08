@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
+
+/*
+'Shadows Into Light', cursive
+*/
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+
+#spantext {
+    color: yellow;
+}
+
+.navi {
+    float: right;
+}
+
+.exc {
+    color: yellow;
+}
+
+#piz-pap {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkorange;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+
+.menu-btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #000;
+}
