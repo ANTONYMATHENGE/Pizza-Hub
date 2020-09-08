@@ -17,6 +17,7 @@ incase you encounter other bugs please reach out via the email i have provided.
 * js
 ###Demo
  * To get access to a live demo click this link  https://github.com/ANTONYMATHENGE/Akan-Name-Generator.git
+ * For the design click on this link https://www.figma.com/file/p8zSJ9ZTgpYy3CvpmDCkrY/pizza-Hub?node-id=1%3A2
 
 ### License
 * MIT License

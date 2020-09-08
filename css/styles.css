@@ -10,6 +10,10 @@
     scroll-behavior: smooth;
 }
 
+button {
+    color: red;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,8 +26,8 @@ body {
 }
 
 .navi {
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: right;
 }
 
 .exc {
@@ -34,7 +38,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
     font-size: 35px;
     font-weight: normal;
-    color: darkorange;
+    color: red;
 }
 
 li {
@@ -269,7 +273,7 @@ figure img {
 }
 
 .welcome {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .rads {
@@ -297,3 +301,64 @@ figure img {
 
 
 /** Media Queries start **/
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+}
+
+#push {
+    padding-top: 15%;
+}
+
+.karibu-txt {
+    margin-top: 50px;
+}
+
+.menu-overlay {
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.karibu-img {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 270px;
+}
+
+button .cdata {
+    padding: 10px 5px 10px 5px;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+    .piz-pap {
+        font-size: 50px;
+    }
+    ul>.nav-items {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+}
+
+
+/* Media Queries end*/
